@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  dueby: 2018-05-09
+  assignedto: MyString
+  status: false
+  notes: MyText
+
+two:
+  title: MyString
+  dueby: 2018-05-09
+  assignedto: MyString
+  status: false
+  notes: MyText

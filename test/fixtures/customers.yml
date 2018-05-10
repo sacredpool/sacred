@@ -1,0 +1,47 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  active: false
+  firstname: MyString
+  lastname: MyString
+  phone: MyString
+  email: MyString
+  address1: MyString
+  address2: MyString
+  city: MyString
+  state: MyString
+  zip: MyString
+  ctype: false
+  day: false
+  gate: MyString
+  emailinv: false
+  printinv: false
+  semail: false
+  filterplan: false
+  pif: false
+  dogs: 1
+  price: 9.99
+  notes: MyText
+
+two:
+  active: false
+  firstname: MyString
+  lastname: MyString
+  phone: MyString
+  email: MyString
+  address1: MyString
+  address2: MyString
+  city: MyString
+  state: MyString
+  zip: MyString
+  ctype: false
+  day: false
+  gate: MyString
+  emailinv: false
+  printinv: false
+  semail: false
+  filterplan: false
+  pif: false
+  dogs: 1
+  price: 9.99
+  notes: MyText
