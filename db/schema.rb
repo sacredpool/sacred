@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_05_10_023859) do
+ActiveRecord::Schema.define(version: 2018_05_10_032053) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -36,6 +36,62 @@ ActiveRecord::Schema.define(version: 2018_05_10_023859) do
     t.boolean "pif"
     t.integer "dogs"
     t.decimal "price"
+    t.text "notes"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "estimates", force: :cascade do |t|
+    t.datetime "stamp"
+    t.string "gps"
+    t.string "name"
+    t.date "date"
+    t.boolean "status"
+    t.string "phone"
+    t.string "email"
+    t.string "address1"
+    t.string "address2"
+    t.string "city"
+    t.string "state"
+    t.string "zip"
+    t.boolean "type"
+    t.boolean "technician"
+    t.boolean "signed"
+    t.string "gate"
+    t.boolean "day"
+    t.boolean "emailinv"
+    t.boolean "printinv"
+    t.boolean "semail"
+    t.boolean "filterplan"
+    t.boolean "pif"
+    t.integer "dogs"
+    t.decimal "price"
+    t.text "notes"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "services", force: :cascade do |t|
+    t.datetime "stamp"
+    t.string "gps"
+    t.string "customer"
+    t.date "date"
+    t.boolean "technician"
+    t.boolean "type"
+    t.boolean "greenpool"
+    t.boolean "status"
+    t.boolean "nextfilter"
+    t.string "itemrepair"
+    t.decimal "laborhrs"
+    t.boolean "inspected"
+    t.boolean "broken"
+    t.text "what"
+    t.boolean "vacuum"
+    t.boolean "brush"
+    t.decimal "ph"
+    t.decimal "chlorine"
+    t.integer "alkalinity"
+    t.text "chemsused"
     t.text "notes"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

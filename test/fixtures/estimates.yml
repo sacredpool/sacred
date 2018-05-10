@@ -1,0 +1,55 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  stamp: 2018-05-09 20:20:53
+  gps: MyString
+  name: MyString
+  date: 2018-05-09
+  status: false
+  phone: MyString
+  email: MyString
+  address1: MyString
+  address2: MyString
+  city: MyString
+  state: MyString
+  zip: MyString
+  type: false
+  technician: false
+  signed: false
+  gate: MyString
+  day: false
+  emailinv: false
+  printinv: false
+  semail: false
+  filterplan: false
+  pif: false
+  dogs: 1
+  price: 9.99
+  notes: MyText
+
+two:
+  stamp: 2018-05-09 20:20:53
+  gps: MyString
+  name: MyString
+  date: 2018-05-09
+  status: false
+  phone: MyString
+  email: MyString
+  address1: MyString
+  address2: MyString
+  city: MyString
+  state: MyString
+  zip: MyString
+  type: false
+  technician: false
+  signed: false
+  gate: MyString
+  day: false
+  emailinv: false
+  printinv: false
+  semail: false
+  filterplan: false
+  pif: false
+  dogs: 1
+  price: 9.99
+  notes: MyText

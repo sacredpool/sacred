@@ -1,0 +1,47 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  stamp: 2018-05-09 20:17:50
+  gps: MyString
+  customer: MyString
+  date: 2018-05-09
+  technician: false
+  type: false
+  greenpool: false
+  status: false
+  nextfilter: false
+  itemrepair: MyString
+  laborhrs: 9.99
+  inspected: false
+  broken: false
+  what: MyText
+  vacuum: false
+  brush: false
+  ph: 9.99
+  chlorine: 9.99
+  alkalinity: 1
+  chemsused: MyText
+  notes: MyText
+
+two:
+  stamp: 2018-05-09 20:17:50
+  gps: MyString
+  customer: MyString
+  date: 2018-05-09
+  technician: false
+  type: false
+  greenpool: false
+  status: false
+  nextfilter: false
+  itemrepair: MyString
+  laborhrs: 9.99
+  inspected: false
+  broken: false
+  what: MyText
+  vacuum: false
+  brush: false
+  ph: 9.99
+  chlorine: 9.99
+  alkalinity: 1
+  chemsused: MyText
+  notes: MyText
