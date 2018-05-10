@@ -1,0 +1,31 @@
+default: &default
+  adapter: postgresql
+  username: postgres
+  password: ccSfl237!
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 5000
+  database: sacredsql
+
+development:
+  adapter: postgresql
+  username: postgres
+  password: ccSfl237!
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 5000
+  database: sacredsql
+
+test:
+  adapter: postgresql
+  username: postgres
+  password: ccSfl237!
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 5000
+  database: sacredsql
+
+production:
+  adapter: postgresql
+  username: postgres
+  password: ccSfl237!
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 5000
+  database: sacredsql
